@@ -1,0 +1,295 @@
+{
+  "shelf" : [ "manzana", "pera", "tomate", "lechuga", "huevos", "café", "queso", "pan", "naranja", "salchicha", "hamburguesa", "cerveza", "patatas", "chistorra", "zanahoria", "chocolate" ],
+  "tags" : {
+    "fruta" : {
+      "name" : "fruta",
+      "products" : [ 1, 2, 3, 15 ]
+    },
+    "carne" : {
+      "name" : "carne",
+      "products" : [ 5, 6, 9 ]
+    },
+    "barbacoa" : {
+      "name" : "barbacoa",
+      "products" : [ 5, 6, 7, 8, 9 ]
+    },
+    "bebida" : {
+      "name" : "bebida",
+      "products" : [ 7, 11 ]
+    },
+    "proteina" : {
+      "name" : "proteina",
+      "products" : [ 5, 6, 10, 12 ]
+    },
+    "básico" : {
+      "name" : "básico",
+      "products" : [ 10, 14 ]
+    },
+    "desayuno" : {
+      "name" : "desayuno",
+      "products" : [ 10, 11, 14 ]
+    },
+    "saludable" : {
+      "name" : "saludable",
+      "products" : [ 1, 2, 3, 4, 10, 15 ]
+    },
+    "fresco" : {
+      "name" : "fresco",
+      "products" : [ 1, 2, 3, 4, 10, 15 ]
+    },
+    "guarnición" : {
+      "name" : "guarnición",
+      "products" : [ 8, 10 ]
+    },
+    "energía" : {
+      "name" : "energía",
+      "products" : [ 11 ]
+    },
+    "artesanal" : {
+      "name" : "artesanal",
+      "products" : [ 7, 11, 12 ]
+    },
+    "lácteo" : {
+      "name" : "lácteo",
+      "products" : [ 12 ]
+    },
+    "procesado" : {
+      "name" : "procesado",
+      "products" : [ 12 ]
+    },
+    "cocina" : {
+      "name" : "cocina",
+      "products" : [ 12 ]
+    },
+    "snack" : {
+      "name" : "snack",
+      "products" : [ 8, 12, 13 ]
+    },
+    "sándwich" : {
+      "name" : "sándwich",
+      "products" : [ 12, 14 ]
+    },
+    "postre" : {
+      "name" : "postre",
+      "products" : [ 1, 2, 13, 15 ]
+    },
+    "dulce" : {
+      "name" : "dulce",
+      "products" : [ 2, 13, 15 ]
+    },
+    "cacao" : {
+      "name" : "cacao",
+      "products" : [ 13 ]
+    },
+    "golosina" : {
+      "name" : "golosina",
+      "products" : [ 13 ]
+    },
+    "leche" : {
+      "name" : "leche",
+      "products" : [ 13 ]
+    },
+    "nevera" : {
+      "name" : "nevera",
+      "products" : [ 12 ]
+    },
+    "panadería" : {
+      "name" : "panadería",
+      "products" : [ 14 ]
+    },
+    "cítrico" : {
+      "name" : "cítrico",
+      "products" : [ 15 ]
+    },
+    "ácido" : {
+      "name" : "ácido",
+      "products" : [ 15 ]
+    },
+    "vegetal" : {
+      "name" : "vegetal",
+      "products" : [ 3, 4 ]
+    },
+    "ensalada" : {
+      "name" : "ensalada",
+      "products" : [ 3, 4 ]
+    },
+    "alcohol" : {
+      "name" : "alcohol",
+      "products" : [ 7 ]
+    },
+    "sin gluten" : {
+      "name" : "sin gluten",
+      "products" : [ 4 ]
+    },
+    "carbohidratos" : {
+      "name" : "carbohidratos",
+      "products" : [ ]
+    }
+  },
+  "products" : {
+    "1" : {
+      "id" : 1,
+      "name" : "manzana",
+      "tags" : {
+        "fresco" : 10.0,
+        "fruta" : 10.0,
+        "postre" : 3.0,
+        "saludable" : 10.0
+      }
+    },
+    "2" : {
+      "id" : 2,
+      "name" : "pera",
+      "tags" : {
+        "fresco" : 10.0,
+        "fruta" : 10.0,
+        "postre" : 3.0,
+        "saludable" : 10.0,
+        "dulce" : 2.0
+      }
+    },
+    "3" : {
+      "id" : 3,
+      "name" : "tomate",
+      "tags" : {
+        "ensalada" : 8.0,
+        "fresco" : 10.0,
+        "fruta" : 5.0,
+        "saludable" : 10.0,
+        "vegetal" : 5.0
+      }
+    },
+    "4" : {
+      "id" : 4,
+      "name" : "lechuga",
+      "tags" : {
+        "fruta" : 10.0,
+        "fresco" : 10.0,
+        "saludable" : 10.0,
+        "vegetal" : 10.0
+      }
+    },
+    "5" : {
+      "id" : 5,
+      "name" : "salchicha",
+      "tags" : {
+        "barbacoa" : 5.0,
+        "carne" : 10.0,
+        "proteina" : 7.0
+      }
+    },
+    "6" : {
+      "id" : 6,
+      "name" : "hamburguesa",
+      "tags" : {
+        "barbacoa" : 7.0,
+        "carne" : 10.0,
+        "proteina" : 6.0
+      }
+    },
+    "7" : {
+      "id" : 7,
+      "name" : "cerveza",
+      "tags" : {
+        "alcohol" : 5.0,
+        "artesanal" : 7.0,
+        "barbacoa" : 10.0,
+        "bebida" : 10.0
+      }
+    },
+    "8" : {
+      "id" : 8,
+      "name" : "patatas",
+      "tags" : {
+        "barbacoa" : 10.0,
+        "guarnición" : 8.0,
+        "snack" : 10.0
+      }
+    },
+    "9" : {
+      "id" : 9,
+      "name" : "chistorra",
+      "tags" : {
+        "barbacoa" : 10.0,
+        "carne" : 10.0
+      }
+    },
+    "10" : {
+      "id" : 10,
+      "name" : "huevos",
+      "tags" : {
+        "básico" : 5.0,
+        "desayuno" : 7.0,
+        "fresco" : 8.0,
+        "guarnición" : 1.0,
+        "proteina" : 5.0,
+        "saludable" : 7.0
+      }
+    },
+    "11" : {
+      "id" : 11,
+      "name" : "café",
+      "tags" : {
+        "artesanal" : 2.0,
+        "bebida" : 8.0,
+        "desayuno" : 10.0,
+        "energía" : 7.0
+      }
+    },
+    "12" : {
+      "id" : 12,
+      "name" : "queso",
+      "tags" : {
+        "artesanal" : 10.0,
+        "cocina" : 2.0,
+        "lácteo" : 10.0,
+        "nevera" : 8.0,
+        "procesado" : 7.0,
+        "proteina" : 5.0,
+        "snack" : 5.0,
+        "sándwich" : 5.0
+      }
+    },
+    "13" : {
+      "id" : 13,
+      "name" : "chocolate",
+      "tags" : {
+        "cacao" : 8.0,
+        "dulce" : 10.0,
+        "golosina" : 2.0,
+        "leche" : 2.0,
+        "postre" : 10.0,
+        "snack" : 3.0
+      }
+    },
+    "14" : {
+      "id" : 14,
+      "name" : "pan",
+      "tags" : {
+        "básico" : 10.0,
+        "carbohidratos" : 8.0,
+        "desayuno" : 8.0,
+        "panadería" : 10.0
+      }
+    },
+    "15" : {
+      "id" : 15,
+      "name" : "naranja",
+      "tags" : {
+        "cítrico" : 10.0,
+        "dulce" : 6.0,
+        "fresco" : 8.0,
+        "fruta" : 1.0,
+        "postre" : 6.0,
+        "saludable" : 10.0,
+        "ácido" : 6.0
+      }
+    },
+    "16" : {
+      "id" : 16,
+      "name" : "zanahoria",
+      "tags" : { }
+    }
+  },
+  "similarities" : { }
+}
